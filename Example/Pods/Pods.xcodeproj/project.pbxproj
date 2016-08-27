@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44D86311F32931F1372352F1492BBAE4 /* Pods-SecondScreen_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2311F5DF7D56397F161010D621F4D4 /* Pods-SecondScreen_Tests-dummy.m */; };
+		62A033CAB54F413FF5A31DFB1FF1B36C /* Pods-SecondScreen_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1B01006CF8FF7FABE7E8F5145C5CE4 /* Pods-SecondScreen_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		764C42C146DC8F2FDD18121D0BE46039 /* SecondScreen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BB2405256A201E6F3502C8D52772A7 /* SecondScreen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BB719E477D176375106119C26A5CF8D /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA26CF7C715C0B54660A208E76B93903 /* SecondScreen.swift */; };
+		8EC21F5303785871F7586459C82E043F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B9523F3B674DA42C31C5C8DEE04D3E3D /* SecondScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFC09ED9AA8EA8FE19AEF1B567C20B7 /* SecondScreen-dummy.m */; };
+		BEFDB8D39EDB844CB44BD3BAA68D2D3A /* Pods-SecondScreen_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 207F58654184F564F62BF1596175EC23 /* Pods-SecondScreen_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A93155C732C1DF79A34CC8830BA070 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		ED8F941DC2541222FDACF5D70AE14EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F9813B5D4D3A8D7794F863C3F85B3C7B /* Pods-SecondScreen_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E193DCDA0087CAD6BA03981EEF34CEAB /* Pods-SecondScreen_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B17F9B9E92B4D15B957BF442E94A967C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B70E1F4D501E423790F80D00063C29F;
+			remoteInfo = SecondScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023B091F3D3BA7355CC07D9D3276CF82 /* Pods-SecondScreen_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecondScreen_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C79726A42C10725A3FD4FDBAED29CE9 /* Pods-SecondScreen_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SecondScreen_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CB9CC9CCDFD668731819BD0AD7CAFB3 /* SecondScreen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SecondScreen-prefix.pch"; sourceTree = "<group>"; };
+		207F58654184F564F62BF1596175EC23 /* Pods-SecondScreen_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SecondScreen_Tests-umbrella.h"; sourceTree = "<group>"; };
+		226F594B21090EBF868C9C804C50147D /* Pods-SecondScreen_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecondScreen_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		36105564423E422D6AD6535338A7975B /* Pods-SecondScreen_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecondScreen_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CD8305E59F59992446CB522F220D275 /* Pods-SecondScreen_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SecondScreen_Tests.modulemap"; sourceTree = "<group>"; };
+		4676D120B15A501559B4016793EBA7D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C822D53FEFE81E696296A45426C2C17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50BB2405256A201E6F3502C8D52772A7 /* SecondScreen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SecondScreen-umbrella.h"; sourceTree = "<group>"; };
+		5248F08C949D7D97DC83D0789BD5CF87 /* Pods-SecondScreen_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SecondScreen_Example-frameworks.sh"; sourceTree = "<group>"; };
+		58FE7D44245D64C2E5AD6D40FD545E30 /* SecondScreen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SecondScreen.xcconfig; sourceTree = "<group>"; };
+		66CAF2C6DC3F849B7EC3833FEF53C554 /* Pods-SecondScreen_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SecondScreen_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74E17337E2FF9B91AF647CBE93B559E9 /* Pods-SecondScreen_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SecondScreen_Tests-resources.sh"; sourceTree = "<group>"; };
+		7782D2F4F00B09265F9817D5AAAA9E37 /* Pods-SecondScreen_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SecondScreen_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		85D209E00F267E0FF628E91CDFF7B908 /* Pods-SecondScreen_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SecondScreen_Example-resources.sh"; sourceTree = "<group>"; };
+		885F4662108A6A97B845C02B58143C5D /* SecondScreen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SecondScreen.modulemap; sourceTree = "<group>"; };
+		8C1B01006CF8FF7FABE7E8F5145C5CE4 /* Pods-SecondScreen_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SecondScreen_Example-umbrella.h"; sourceTree = "<group>"; };
+		929F871834A8120F23092C3D6272F14C /* Pods_SecondScreen_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecondScreen_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CFC09ED9AA8EA8FE19AEF1B567C20B7 /* SecondScreen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SecondScreen-dummy.m"; sourceTree = "<group>"; };
+		AB08ED6D9AFB26843A40322AF981DA09 /* Pods-SecondScreen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecondScreen_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C29495EA6AB99D78DF79BF0370F04691 /* Pods-SecondScreen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecondScreen_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CA26CF7C715C0B54660A208E76B93903 /* SecondScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF374A1B52F0C049998FC629726F10EE /* Pods_SecondScreen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecondScreen_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE24A7D2A8D09B0DE301086B0D9642F /* SecondScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SecondScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E193DCDA0087CAD6BA03981EEF34CEAB /* Pods-SecondScreen_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SecondScreen_Example-dummy.m"; sourceTree = "<group>"; };
+		E22F2E5D7E728FC617733D71BBED7918 /* Pods-SecondScreen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecondScreen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5E9E69643BC54D82EF628D9DA6082C8 /* Pods-SecondScreen_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SecondScreen_Example.modulemap"; sourceTree = "<group>"; };
+		F7B4BA5D13F0C5B331AC0B356C78B7DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2311F5DF7D56397F161010D621F4D4 /* Pods-SecondScreen_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SecondScreen_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5849533318A95FE9301F3D561BF5520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8F941DC2541222FDACF5D70AE14EE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D576D420EB4D6AAFFD3C74BEC5890095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC21F5303785871F7586459C82E043F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81F1174CE55071B178499DEFC20A5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A93155C732C1DF79A34CC8830BA070 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11AE4F9AAF5AC29CCD0286EFB3EB7A07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929F871834A8120F23092C3D6272F14C /* Pods_SecondScreen_Example.framework */,
+				CF374A1B52F0C049998FC629726F10EE /* Pods_SecondScreen_Tests.framework */,
+				DBE24A7D2A8D09B0DE301086B0D9642F /* SecondScreen.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A83961BD8DE47DDC6C51E6276543C44 /* Pods-SecondScreen_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4BA5D13F0C5B331AC0B356C78B7DD /* Info.plist */,
+				E5E9E69643BC54D82EF628D9DA6082C8 /* Pods-SecondScreen_Example.modulemap */,
+				1C79726A42C10725A3FD4FDBAED29CE9 /* Pods-SecondScreen_Example-acknowledgements.markdown */,
+				36105564423E422D6AD6535338A7975B /* Pods-SecondScreen_Example-acknowledgements.plist */,
+				E193DCDA0087CAD6BA03981EEF34CEAB /* Pods-SecondScreen_Example-dummy.m */,
+				5248F08C949D7D97DC83D0789BD5CF87 /* Pods-SecondScreen_Example-frameworks.sh */,
+				85D209E00F267E0FF628E91CDFF7B908 /* Pods-SecondScreen_Example-resources.sh */,
+				8C1B01006CF8FF7FABE7E8F5145C5CE4 /* Pods-SecondScreen_Example-umbrella.h */,
+				226F594B21090EBF868C9C804C50147D /* Pods-SecondScreen_Example.debug.xcconfig */,
+				AB08ED6D9AFB26843A40322AF981DA09 /* Pods-SecondScreen_Example.release.xcconfig */,
+			);
+			name = "Pods-SecondScreen_Example";
+			path = "Target Support Files/Pods-SecondScreen_Example";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4B8E18E5B129D97045B19FCDB76E62A1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A83961BD8DE47DDC6C51E6276543C44 /* Pods-SecondScreen_Example */,
+				79182772D0EEADD98F1D0694F6BE9EBD /* Pods-SecondScreen_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		504197C96B398FC2674F86D8A488C747 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4676D120B15A501559B4016793EBA7D1 /* Info.plist */,
+				885F4662108A6A97B845C02B58143C5D /* SecondScreen.modulemap */,
+				58FE7D44245D64C2E5AD6D40FD545E30 /* SecondScreen.xcconfig */,
+				9CFC09ED9AA8EA8FE19AEF1B567C20B7 /* SecondScreen-dummy.m */,
+				1CB9CC9CCDFD668731819BD0AD7CAFB3 /* SecondScreen-prefix.pch */,
+				50BB2405256A201E6F3502C8D52772A7 /* SecondScreen-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SecondScreen";
+			sourceTree = "<group>";
+		};
+		5831B32A0DC558F85CCEB883D6879C04 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CA26CF7C715C0B54660A208E76B93903 /* SecondScreen.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		69A38177B58057748DEDC71804A01B15 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5831B32A0DC558F85CCEB883D6879C04 /* Classes */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+		79182772D0EEADD98F1D0694F6BE9EBD /* Pods-SecondScreen_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C822D53FEFE81E696296A45426C2C17 /* Info.plist */,
+				3CD8305E59F59992446CB522F220D275 /* Pods-SecondScreen_Tests.modulemap */,
+				66CAF2C6DC3F849B7EC3833FEF53C554 /* Pods-SecondScreen_Tests-acknowledgements.markdown */,
+				023B091F3D3BA7355CC07D9D3276CF82 /* Pods-SecondScreen_Tests-acknowledgements.plist */,
+				FA2311F5DF7D56397F161010D621F4D4 /* Pods-SecondScreen_Tests-dummy.m */,
+				7782D2F4F00B09265F9817D5AAAA9E37 /* Pods-SecondScreen_Tests-frameworks.sh */,
+				74E17337E2FF9B91AF647CBE93B559E9 /* Pods-SecondScreen_Tests-resources.sh */,
+				207F58654184F564F62BF1596175EC23 /* Pods-SecondScreen_Tests-umbrella.h */,
+				E22F2E5D7E728FC617733D71BBED7918 /* Pods-SecondScreen_Tests.debug.xcconfig */,
+				C29495EA6AB99D78DF79BF0370F04691 /* Pods-SecondScreen_Tests.release.xcconfig */,
+			);
+			name = "Pods-SecondScreen_Tests";
+			path = "Target Support Files/Pods-SecondScreen_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C85F92905AEF9266CA540647B21BA328 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				11AE4F9AAF5AC29CCD0286EFB3EB7A07 /* Products */,
+				4B8E18E5B129D97045B19FCDB76E62A1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		913FF752C6EAD99DB6DAF73940437740 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				69A38177B58057748DEDC71804A01B15 /* SecondScreen */,
+				504197C96B398FC2674F86D8A488C747 /* Support Files */,
+			);
+			name = SecondScreen;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C85F92905AEF9266CA540647B21BA328 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				913FF752C6EAD99DB6DAF73940437740 /* SecondScreen */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		018F6BF63D9828D6362ED7082DED5251 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFDB8D39EDB844CB44BD3BAA68D2D3A /* Pods-SecondScreen_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242CB896DF3C84AE12C88E6E9BB715B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A033CAB54F413FF5A31DFB1FF1B36C /* Pods-SecondScreen_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA7B4C5340D1D66FC307C28AD94B76B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764C42C146DC8F2FDD18121D0BE46039 /* SecondScreen-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E120314750CE91F5F0DAD89F78CB94D /* Pods-SecondScreen_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B7C96E760960C1B8780339CE434ED58 /* Build configuration list for PBXNativeTarget "Pods-SecondScreen_Example" */;
+			buildPhases = (
+				2F262B77D2647CC117CE871158508358 /* Sources */,
+				B5849533318A95FE9301F3D561BF5520 /* Frameworks */,
+				242CB896DF3C84AE12C88E6E9BB715B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10DACA6513CBC18EC12A3F2C204CBFE /* PBXTargetDependency */,
+			);
+			name = "Pods-SecondScreen_Example";
+			productName = "Pods-SecondScreen_Example";
+			productReference = 929F871834A8120F23092C3D6272F14C /* Pods_SecondScreen_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B70E1F4D501E423790F80D00063C29F /* SecondScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C980F3CFB1DA9A787FA3901849DB996 /* Build configuration list for PBXNativeTarget "SecondScreen" */;
+			buildPhases = (
+				200F5C6400DE5B4D57F8E0CD1C352A7F /* Sources */,
+				D576D420EB4D6AAFFD3C74BEC5890095 /* Frameworks */,
+				6BA7B4C5340D1D66FC307C28AD94B76B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecondScreen;
+			productName = SecondScreen;
+			productReference = DBE24A7D2A8D09B0DE301086B0D9642F /* SecondScreen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C780A9ADB72321398D9E33B6C21ED36B /* Pods-SecondScreen_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC08425E888915CB70EC166B359DA0AC /* Build configuration list for PBXNativeTarget "Pods-SecondScreen_Tests" */;
+			buildPhases = (
+				E57618035FB1EAA882371ACC37E40E78 /* Sources */,
+				D81F1174CE55071B178499DEFC20A5D6 /* Frameworks */,
+				018F6BF63D9828D6362ED7082DED5251 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SecondScreen_Tests";
+			productName = "Pods-SecondScreen_Tests";
+			productReference = CF374A1B52F0C049998FC629726F10EE /* Pods_SecondScreen_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 11AE4F9AAF5AC29CCD0286EFB3EB7A07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E120314750CE91F5F0DAD89F78CB94D /* Pods-SecondScreen_Example */,
+				C780A9ADB72321398D9E33B6C21ED36B /* Pods-SecondScreen_Tests */,
+				8B70E1F4D501E423790F80D00063C29F /* SecondScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		200F5C6400DE5B4D57F8E0CD1C352A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB719E477D176375106119C26A5CF8D /* SecondScreen.swift in Sources */,
+				B9523F3B674DA42C31C5C8DEE04D3E3D /* SecondScreen-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F262B77D2647CC117CE871158508358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9813B5D4D3A8D7794F863C3F85B3C7B /* Pods-SecondScreen_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57618035FB1EAA882371ACC37E40E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D86311F32931F1372352F1492BBAE4 /* Pods-SecondScreen_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F10DACA6513CBC18EC12A3F2C204CBFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SecondScreen;
+			target = 8B70E1F4D501E423790F80D00063C29F /* SecondScreen */;
+			targetProxy = B17F9B9E92B4D15B957BF442E94A967C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13E96D86DBF5FCFFFCEA63BB98D5723C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FE7D44245D64C2E5AD6D40FD545E30 /* SecondScreen.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SecondScreen/SecondScreen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SecondScreen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SecondScreen/SecondScreen.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SecondScreen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C1AC54BA8A39C48D5987493DDBC2B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22F2E5D7E728FC617733D71BBED7918 /* Pods-SecondScreen_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SecondScreen_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecondScreen_Tests/Pods-SecondScreen_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SecondScreen_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EE3C135E6EDC61092E470EBF9312410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FE7D44245D64C2E5AD6D40FD545E30 /* SecondScreen.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SecondScreen/SecondScreen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SecondScreen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SecondScreen/SecondScreen.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SecondScreen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5690A6B1A0693622AA7C4C8730B52FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 226F594B21090EBF868C9C804C50147D /* Pods-SecondScreen_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SecondScreen_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecondScreen_Example/Pods-SecondScreen_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SecondScreen_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9921219B41959F2BCD92853EE4850D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C29495EA6AB99D78DF79BF0370F04691 /* Pods-SecondScreen_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SecondScreen_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecondScreen_Tests/Pods-SecondScreen_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SecondScreen_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B550B5EA6F5996C3CA80FB5F6AD159BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB08ED6D9AFB26843A40322AF981DA09 /* Pods-SecondScreen_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SecondScreen_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecondScreen_Example/Pods-SecondScreen_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SecondScreen_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C980F3CFB1DA9A787FA3901849DB996 /* Build configuration list for PBXNativeTarget "SecondScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E96D86DBF5FCFFFCEA63BB98D5723C /* Debug */,
+				3EE3C135E6EDC61092E470EBF9312410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B7C96E760960C1B8780339CE434ED58 /* Build configuration list for PBXNativeTarget "Pods-SecondScreen_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5690A6B1A0693622AA7C4C8730B52FFE /* Debug */,
+				B550B5EA6F5996C3CA80FB5F6AD159BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC08425E888915CB70EC166B359DA0AC /* Build configuration list for PBXNativeTarget "Pods-SecondScreen_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1AC54BA8A39C48D5987493DDBC2B7B /* Debug */,
+				9921219B41959F2BCD92853EE4850D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SecondScreen (0.1.0)
+
+DEPENDENCIES:
+  - SecondScreen (from `../`)
+
+EXTERNAL SOURCES:
+  SecondScreen:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SecondScreen: 68fa4d80bf7cdef926586224560158dc11dfd298
+
+PODFILE CHECKSUM: 17373cf33bf0fae9f85f6f400ae126ad765a3929
+
+COCOAPODS: 1.0.1

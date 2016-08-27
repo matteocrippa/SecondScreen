@@ -1,0 +1,6 @@
+framework module SecondScreen {
+  umbrella header "SecondScreen-umbrella.h"
+
+  export *
+  module * { export * }
+}

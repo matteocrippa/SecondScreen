@@ -7,18 +7,33 @@
 //
 
 import UIKit
+import SecondScreen
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, SecondScreenDelegate {
+    
+    var secondScreen = SecondScreen()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        secondScreen.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
-}
+    deinit {
+        
+    }
+    
 
+    func externalVideoConnected(externalWindow: UIWindow) {
+        print("Ext video connect")
+        
+        // externalWindow.rootViewController =
+    }
+    
+    func externalVideoDisconnected() {
+        print("Ext video disconnected")
+    }
+}
