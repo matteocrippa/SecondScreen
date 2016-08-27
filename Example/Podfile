@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SecondScreen_Example' do
+  pod 'SecondScreen', :path => '../'
+
+  target 'SecondScreen_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
